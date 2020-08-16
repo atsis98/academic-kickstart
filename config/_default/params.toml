@@ -13,7 +13,7 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "minimal"
+theme = "Mr Robot"
 
 # Enable users to switch between day and night mode?
 day_night = true
@@ -295,4 +295,4 @@ plugins_js  = []
 ## Icon Pack Extensions
 ############################
 [icon.pack]
-  ai = false  # Academicons icon pack https://jpswalsh.github.io/academicons/
+  ai = true # Academicons icon pack https://jpswalsh.github.io/academicons/
