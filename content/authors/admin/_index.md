@@ -61,7 +61,7 @@ email: ""
 #- Visitors
 ---
 
-Ahoy! My name is Harsha Sista and I recently completed by B.E. Mechanical Engineering degree from BITS Pilani, Hyderabad Campus, one of the finest colleges in India. A lifelong love for the final frontier and a fascination with machines from an early age manifested in me choosing to pursue Aerospace Engineering as a career. Having completed my first step, I am looking to advance my learning by getting into Graduate School.
+Ahoy! My name is Harsha Sista and I recently completed my B.E. Mechanical Engineering degree from BITS Pilani, Hyderabad Campus, one of the finest colleges in India. A lifelong love for space: the final frontier, and a fascination with machines from an early age resulted in me deciding to pursue Engineering as a career, with a focus on Mechanical and Aerospace. Having completed my first step, I am looking to advance my learning by getting into Graduate School.
 
 Although I had always dreamed of becoming an engineer or a scientist, my actual journey began in my first year, when I joined various student teams, participating in competitions like SAE BAJA India, the SpaceX Hyperloop Pod Competition and CANSAT. Working in various profiles within these teams taught me how to break complex problems into simpler parts, and gain and understanding of them intuitively. I carried this mindset forward when I started working with professors on various projects during my second and third years, learning research methodology and building my research acumen.
 
