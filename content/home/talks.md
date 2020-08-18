@@ -4,10 +4,10 @@
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 70  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 30  # Order that this section will appear.
 
-title = "Recent & Upcoming Talks"
+title = "News"
 subtitle = ""
 
 [content]
@@ -68,3 +68,6 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+* <b>August 2020</b> - Started working as a Research Assistant under Prof. K.R.C.Murthy at BITS Pilani, Hyderabad Campus remotely.
+* <b>July 2019</b> - Started my undergraduate thesis under Prof. Luigi Vigevano at the Rotorcraft Aerodynamic Laboratory, Politecnico di Milano.
+* <b>May 2019</b> - Started my summer internship under Prof. Sourav Mitra at the Indian Institute of Technology, Kharagpur.
