@@ -55,7 +55,7 @@ The abdominal cavity has long been a focus for surgical procedures since it cont
 
 Due to these advantages, laparoscopy has quickly gained traction among the medical community as a viable alternative to opening up the abdominal cavity.
 
-{{< figure src="figure 1.png" title="Figure 1: An example of laparoscopy" numbered="false" lightbox="false" >}}
+{{< figure src="featured.png" title="Figure 1: An example of laparoscopy" numbered="false" lightbox="false" >}}
 
 ## <b>How is Laparoscopic Surgery performed?</b>
 
