@@ -3,7 +3,7 @@
 
 title: "Numerical Simulations and Design of a Novel Laparoscopic Instrument
 "
-summary: ""
+summary: "The project aims to introduce a new design of an instrument that combines the functionality of surgical forceps, a Suction-Irrigation (S-I) device, and a Carbon Dioxide (CO2) insufflator. A brief introduction to surgery and laparoscopy is provided before moving on to the details of the project."
 authors: [Harsha Sista]
 tags: [Laparoscopy, Design and Simulation]
 categories: [Undergraduate Projects]
@@ -88,6 +88,8 @@ I joined the ongoing project in January 2020, with the initial objective of runn
 To achieve the desired multi-functionality, we decided to add a sleeve covering the forceps, which would act as the common conduit for the S-I process as well as the CO2 insufflation, depending on usage.
 
 After spending the first few weeks building a forceps assembly based on existing designs, I added the outer sleeve and other components as required. The design process was iterative in nature, with me working closely with my two advising professors and the Ph.D. student to give it the desired shape, literally and figuratively. After all the requirements were met, we filed an Invention Disclosure Form and applied for an Indian Patent for our design.
+
+## <b>Part 2: Non-Newtonian Simulations</b>
 
 What is a non-Newtonian fluid? It is a fluid that does not follow Newton's law of viscosity. Now, what is that? Newton defines viscosity as the ratio between shear stress and shear rate.
 
