@@ -40,7 +40,7 @@ url_video: ""
 slides: ""
 ---
 
-In this thesis, the aerodynamic study of the flow field around the tail rotor and fuselage of a rotorcraft is conducted by generating a high-resolution grid using ANSYS ICEM. Subsequent simulations are carried out on the in-house CFD solver, ROSITA, using the Navier-Stokes governing equation in combination with the Spallart-Allmaras Turbulence Model.
+This project was the focus of my undergraduate thesis at the Rotorcraft Aerodynamic Laboratory at Politecnico di Milano, under the guidance of Prof. Luigi Vigevano, Associate Professor at the Department of Aerospace Engineering. In this thesis, the aerodynamic study of the flow field around the tail rotor and fuselage of a rotorcraft is conducted by generating a high-resolution grid using ANSYS ICEM. Subsequent simulations are carried out on the in-house CFD solver, ROSITA, using the Navier-Stokes governing equation in combination with the Spallart-Allmaras Turbulence Model.
 
 ## <b>Introduction</b>
 

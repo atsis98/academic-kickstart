@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Flow simulation of supercritical Carbon Dioxide through a Channel"
+title: "Flow simulation of supercritical Carbon Dioxide through a channel"
 summary: "The project focused on simulating the flow of supercritical Carbon Dioxide (CO2) through a small channel, studying the velocity and temperature profiles."
 authors: [Harsha Sista]
 tags: [CFD, Supercritical Fluid]
@@ -40,7 +40,7 @@ url_video: ""
 slides: ""
 ---
 
-The project focused on simulating the flow of supercritical Carbon Dioxide (CO2) through a small channel, studying the velocity and temperature profiles.
+This project was the focus of my research-oriented summer internship under Dr. Sourav Mitra, Assistant Professor at the Indian Institute of Technology, Kharagpur. It focused on simulating the flow of supercritical Carbon Dioxide (CO2) through a small channel, studying the velocity and temperature profiles.
 
 ## <b>Introduction</b>
 
