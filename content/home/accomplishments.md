@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2017-10-01"
   date_end = "2020-08-01"
-  description = "The Hyperloop Pod Competition is an annual competition hosted by SpaceX, in which a number of student and non-student teams participate to design and build a subscale prototype transport vehicle. Hyperloop India was the first team from Asia to qualify for the International Finals in 2017, setting a benchmark and paving the way for this technology to take a step forward in India."
+  description = "The Hyperloop Pod Competition is an annual competition hosted by SpaceX, in which several student and non-student teams participate to design and build a subscale prototype transport vehicle. Hyperloop India was the first team from Asia to qualify for the International Finals in 2017. It set a benchmark and paved the way for this technology to take a step forward in India."
 
 [[item]]
   organization = "American Astronautical Society"
@@ -44,9 +44,9 @@ date_format = "Jan 2006"
   title = "SAE BAJA India 2018"
   url = "https://bajasaeindia.org/"
   certificate_url = ""
-  date_start = "2018-01-01"
+  date_start = "2017-09-01"
   date_end = "2018-09-21"
-  description = "Core Member of Powertrain Team. Designed a Roll Cage for the ATV, computed the power required, CVT and Gear Ratios, torque and gradeability."
+  description = "Core Member of Powertrain Team. Designed a Roll Cage for the ATV, computed the power required, CVT and Gear Ratios, torque, and gradeability."
 
   [[item]]
   organization = "Autosports India"
@@ -56,6 +56,6 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2017-10-01"
   date_end = "2018-04-21"
-  description = "Core Member of Powertrain Team. Calculated the maximum torque, gradeability, power required and CVT Ratio in addition to fabricating mounts for the engine, manufacturing the roll cage and testing the engine for the all-terrain vehicle."
+  description = "Core Member of Powertrain Team. Calculated the maximum torque, gradeability, power required, and CVT Ratio in addition to fabricating mounts for the engine, manufacturing the roll cage, and testing the engine for the all-terrain vehicle."
 
 +++
