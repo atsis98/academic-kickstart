@@ -41,7 +41,7 @@ url_video: ""
 slides: ""
 ---
 
-The project aims to introduce a new design of an instrument that combines the functionality of surgical forceps, a Suction-Irrigation (S-I) device, and a Carbon Dioxide (CO2) insufflator. To understand the project in the right context, I will start with a brief introduction to surgery and laparoscopy before moving on to the details of the project.
+The project aims to introduce a new design of an instrument that combines the functionality of surgical forceps, a Suction-Irrigation (S-I) device, and a Carbon Dioxide (CO2) insufflator. To understand the project in the right context, I will start with a brief introduction to surgery and laparoscopy before moving on to the project's details.
 
 
 ## <b>Introduction</b>
@@ -63,7 +63,7 @@ In laparoscopic surgery, the surgeon views the abdominal cavity from the monitor
 
 {{< figure src="figure 2.png" title="Figure 2: An overview of the instruments used in a laparoscopic surgery" numbered="false" lightbox="false" >}}
 
-Initially, the surgeon makes a small incision through a trocar near the belly button. Then a camera-enabled laparoscope is inserted into the abdominal cavity through a trocar into the first of the three ports. The abdomen is inflated with carbon dioxide gas (a method known as pneumoperitoneum) through the second port to view internal organs clearly on a monitor. The reason for preferring carbon dioxide over other gases is that it is non-flammable, non-combustible, colorless, readily soluble in water, cheap, and reduces the risk of complications occurring by blood clots in veins.
+Initially, the surgeon makes a small incision through a trocar near the belly button. A camera-enabled laparoscope is then inserted into the abdominal cavity through a trocar into the first of the three ports. The abdomen is inflated with carbon dioxide gas (a method known as pneumoperitoneum) through the second port to clearly view internal organs on a monitor. The reason for preferring carbon dioxide over other gases is that it is non-flammable, non-combustible, colorless, readily soluble in water, cheap, and reduces the risk of complications from blood clots in veins.
 
 The final port is for the laparoscopic forceps, to perform operations such as grasping, cutting, lasing, cauterizing, etc. After inflating the carbon dioxide gas, the surgeon inserts the required instruments and begins operating.
 
@@ -81,13 +81,13 @@ The objectives of the project are enumerated below:
 
 ## <b>Part 1: Designing the novel instrument</b>
 
-I joined the ongoing project in January 2020, with the initial objective of running simulations, but with my previous experience with design and Solidworks in particular, I started on converting the conceptual idea into a tangible design. The idea was simple, modify and add on to an existing design of the forceps, as shown in the figure below:
+I joined the ongoing project in January 2020, with the initial objective of running simulations. With my previous experience with design and Solidworks in particular, I started converting the conceptual idea into a tangible design. The idea was simple: to modify and add to an existing design of the forceps, as shown in the figure below:
 
 {{< figure src="figure 3.png" title="Figure 3: Existing surgical forceps" numbered="false" lightbox="false" height=400 width=400 >}}
 
-To achieve the desired multi-functionality, we decided to add a sleeve covering the forceps, which would act as the common conduit for the S-I process as well as the CO2 insufflation, depending on usage.
+To achieve the desired multi-functionality, we decided to add a sleeve covering the forceps, which would act as the common conduit for the S-I process and the CO2 insufflation, depending on usage.
 
-After spending the first few weeks building a forceps assembly based on existing designs, I added the outer sleeve and other components as required. The design process was iterative in nature, with me working closely with my two advising professors and the Ph.D. student to give it the desired shape, literally and figuratively. After all the requirements were met, we filed an Invention Disclosure Form and applied for an Indian Patent for our design.
+After spending the first few weeks building a forceps assembly based on existing designs, I added the outer sleeve and other components as required. The design process was iterative, with me working closely with my two advising professors and the Ph.D. student to give it the desired shape, literally and figuratively. After all the requirements were met, we filed an Invention Disclosure Form and applied for an Indian Patent for our design.
 
 ## <b>Part 2: Non-Newtonian Simulations</b>
 
@@ -103,16 +103,14 @@ There are many models available to model blood as a non-newtonian fluid in ANSYS
 
 Once the outer sleeve was added onto the design, I extracted a fluid domain from it, which would serve as the geometry for all the fluid simulations we were going to do. Importing it into ANSYS, we spent a couple of weeks conducting mesh-independent studies to select one final mesh.
 
-Then, with the two models and the final mesh, we simulated the process of the apparatus sucking the blood out of the operating area, by giving the appropriate pressure differences. The resulting depictions of the flow physics were interesting, to say the least, and make up the crux of a couple of research papers that are being written right now.
+Then, with the two models and the final mesh, we simulated the apparatus's apparatus sucking the blood out of the operating area by giving the appropriate pressure differences. The resulting depictions of the flow physics were interesting, to say the least, and make up the crux of a couple of research papers being written right now.
 
 ## <b>Part 3: Multiphase Simulations</b>
 
-The part I am currently working on, apart from writing a few papers detailing our research, is multiphase simulations. So what exactly does multiphase flow mean? It refers to the flow of two or more fluid phases through the same medium. In this case, for CO2 insufflation, CO2 and air make up the two phases that flow through the outer sleeve.
-Therefore, the modeling of this situation on ANSYS is much more complex. To reduce a degree of complexity, the inlet was divided into two fractions, according to the respective volume fraction of the two elements, and then simulated in Fluent. These are very computationally intensive simulations, which in ordinary speak means that they take a lot of time. For the next month or so, I will be working on this. Stay tuned for further updates, and you just might be rewarded with more details for your patience.
+Apart from writing a few papers detailing our research, I am currently working on multiphase simulations. So what exactly does multiphase flow mean? It refers to the flow of two or more fluid phases through the same medium. In this case, CO2 and air make up the two phases that flow through the outer sleeve. Therefore, the modeling of this situation on ANSYS is much more complex. To reduce a degree of complexity, the inlet was divided into two fractions, according to the respective volume fraction of the two elements, and then simulated in Fluent. These are very computationally intensive simulations, which in ordinary speak means that they take a lot of time. For the next month or so, I will be working on this. Stay tuned for further updates, and you just might be rewarded with more details for your patience.
  
 ## <b>Conclusion</b>
 
-I have been working on this project since the beginning of the year. Although this is a new area of research, having never ventured to the biomechanical side of my degree, it caught my interest in my initial conversations with Prof. Murthy when I approached him for a project back in November last year. Although most of my research work has been related to topics that come under the banner of Aerospace Engineering, I am glad I took up a topic that was on a different segment of the broad Mechanical umbrella.
-In addition to giving me insights into the design and simulation of a practical problem, this project honed my research methodology, especially with respect to the iterative nature of the process and the hard work involved in sowing the seeds that will eventually blossom into tangible branches of knowledge.
+I have been working on this project since the beginning of the year. Although this is a new area of research, having never ventured to the biomechanical side of my degree, it caught my interest in my initial conversations with Prof. Murthy when I approached him for a project back in November last year. Although most of my research work has been related to topics that come under the banner of Aerospace Engineering, I am glad I took up a topic that was on a different segment of the broad Mechanical umbrella. In addition to giving me insights into the design and simulation of a practical problem, this project honed my research methodology, especially with respect to the iterative nature of the process and the hard work involved in sowing the seeds that will eventually blossom into tangible branches of knowledge.
  
-I am deeply grateful to have the opportunity to have worked for an extended period of time on this project, and I believe that my skillset is much improved because of this. Carrying this forward, I shall complete the rest of my tenure with the same enthusiasm for learning with which I began this journey.
+I am deeply grateful to have the opportunity to have worked for an extended period on this project, and I believe that my skillset is much improved because of this. Carrying this forward, I shall complete the rest of my tenure with the same enthusiasm for learning with which I began this journey.

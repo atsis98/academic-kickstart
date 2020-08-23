@@ -44,26 +44,26 @@ This project was the focus of my research-oriented summer internship under Dr. S
 
 ## <b>Introduction</b>
 
-In the modern era of industrialization, many processes require the usage of solvents for different applications pertaining to the particular industry. For example, solvents are routinely used as paint removers, lacquers, adhesives, cleaning materials, etc. Different industries use different kinds of solvents for their own applications, and with an increase in health awareness, the food industry is looking to move away from classic solvents. Due to this, supercritical Carbon Dioxide is finding favor in the coffee manufacturing industry, as a decaffeinating solvent.
+In the modern era of industrialization, many processes require the usage of solvents for different applications pertaining to the particular industry. For example, solvents are routinely used as paint removers, lacquers, adhesives, cleaning materials, etc. Different industries use different kinds of solvents for their applications, and with an increase in health awareness, the food industry is looking to move away from classic solvents. Due to this, supercritical Carbon Dioxide is finding favor in the coffee manufacturing industry, as a decaffeinating solvent.
 
-It is also gaining momentum in other industrial aspects, as a working fluid due to its relative stability, and as a component in power generation. Due to these advances and the growing use of Supercritical CO2, it is vital to study the characteristics and behavior of this fluid for innovative future applications.
+It is also gaining momentum in other industrial aspects, as a working fluid due to its relative stability, and as a component in power generation. Due to these advances and the growing use of Supercritical CO2, it is vital to study this fluid's characteristics and behavior for innovative future applications.
 
 ## <b>What is a supercritical fluid?</b>
 
-A supercritical fluid is any fluid at a temperature and pressure above its critical point, where distinct liquid and gas phases do not exist. Applying temperature and pressure above the critical point of a substance, pushes that substance into the supercritical phase. The properties of this fluid can be adjusted by going further into the supercritical region.  This is achieved by increasing the temperature or pressure.
+A supercritical fluid is any fluid at a temperature and pressure above its critical point, where distinct liquid and gas phases do not exist. Applying temperature and pressure above the critical point of a substance pushes that substance into the supercritical phase. The properties of this fluid can be adjusted by going further into the supercritical region. This is achieved by increasing the temperature or pressure.
 
 {{< figure src="featured.png" title="Figure 1: Depiction of various phases" numbered="false" lightbox="false" height=500 width=500 >}}
 
 ## <b>Supercritical Carbon Dioxide</b>
 
-Under normal atmospheric conditions, CO2 behaves as a gas, but if the temperature and the pressure are both increased to beyond the parameters of its critical point, it starts behaving midway between a liquid and a gas. This is called the supercritical state of CO2, with the fluid having a density similar to that of a liquid while occupying a volume in the same way a gas does. The parameters for the critical point for CO2 are given below:
+Under normal atmospheric conditions, CO2 behaves as a gas. However, if the temperature and the pressure are increased to beyond the parameters of its critical point, it starts behaving midway between a liquid and a gas. This is called the supercritical state of CO2, with the fluid having a density similar to that of a liquid while occupying a volume in the same way a gas does. The parameters for the critical point for CO2 are given below:
 
 Temperature: 304.25 K
 Pressure: 7.39 MPa
 
 ## <b>Simulation setup for normal CO2</b>
 
-In order to get familiarized with the behavior of CO2 in a flow channel, it was first simulated under normal conditions. The properties of CO2 were imported from NIST REFPROP, by writing a line of code in ANSYS Fluent to initialize the REFPROP database, and select the corresponding CO2 file to be imported.
+To get familiarized with the behavior of CO2 in a flow channel, it was first simulated under normal conditions. The properties of CO2 were imported from NIST REFPROP, by writing a line of code in ANSYS Fluent to initialize the REFPROP database, and select the corresponding CO2 file to be imported.
 
 The pipe length was set to be 0.1m, and the diameter as 0.005m. The boundary conditions are summarized below:
 
@@ -89,7 +89,7 @@ From the above data and analysis, we can conclude that flow of CO2 through a pip
 
 The setup remains the same, except for the temperature of the fluid at the inlet, which is changed to 304.25 K, the supercritical temperature of CO2. However, at the supercritical pressure and temperature, the simulation in Fluent did not behave as expected, even if the outlet boundary condition is changed. So far, the NIST Real gas tables have been linked with the Fluent console. Since the results were not satisfactory, a different approach was required.
 
-Necessary properties such as density and thermal conductivity were explicitly exported from REFPROP into MS-Excel, and their variations with temperature were plotted. Using the trend line feature of Excel, the approximate polynomials for the respective graphs were extracted, as shown below:
+Fundamental properties such as density and thermal conductivity were explicitly exported from REFPROP into MS-Excel, and their variations with temperature were plotted. Using the trend line feature of Excel, the approximate polynomials for the respective graphs were extracted, as shown below:
 
 {{< figure src="fig3.png" title="Figure 4: Physical properties as plotted in Excel" numbered="false" lightbox="false" height=750 width=750 >}}
 
