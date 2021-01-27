@@ -23,6 +23,7 @@ interests:
 - Aerodynamics
 - Propulsion
 - Computational Fluid Dynamics
+- Wind Energy
 - Rotorcraft Dynamics
 - Space Science
 
@@ -69,4 +70,4 @@ By this point, I was piqued by what research had to offer. My Bachelor’s Thesi
 
 Outside the academic sphere, I have diverse interests, ranging from playing and watching various sports to catching up on fantasy novels and quizzing. I also play the piano and guitar and love listening to music from the previous century.
 
-I am currently looking for Ph.D. opportunities in research labs compatible with my interests, starting Spring 2021. If you are interested in discussing potential opportunities, do let me know.
+I am currently looking for opportunities in research labs compatible with my interests, starting immediately. I can also relocate, given the right circumstances. If you are interested in discussing potential opportunities, do let me know.
